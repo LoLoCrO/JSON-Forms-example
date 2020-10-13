@@ -1,9 +1,12 @@
+# MODIFIED CLONE of JSON Forms React seed App
+
+See the original at [https://github.com/eclipsesource/jsonforms-react-seed]
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 # JSON Forms React seed App
 
-This seed demonstrates how to use [JSON Forms](https://jsonforms.io) with React in order to render a simple form for displaying a task entity. It showcases both the redux variant and the React standalone component (without redux).
-
+This seed demonstrates how to use [JSON Forms](https://jsonforms.io) with React in order to render a simple form for displaying a task entity. It showcases the React standalone component.
 It is based on create-react-app and only contains minor modifications.
 
 - Execute `npm ci` to install the prerequisites. If you want to have the latest released versions use `npm install`.
@@ -32,4 +35,4 @@ The standalone form is rendered by importing and using the `JsonForms` component
 
 ## Custom renderers
 
-Please see [our corresponding tutorial](https://jsonforms.io/docs/tutorial) on how to add custom renderers.
+Please see [JSON Forms tutorial](https://jsonforms.io/docs/tutorial) on how to add custom renderers.
